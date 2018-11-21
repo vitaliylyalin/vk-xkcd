@@ -102,6 +102,7 @@ def main():
     publish_photo(owner_id, photo_id, title)
     delete_image(image_name)
 
+
 if __name__ == '__main__':
     load_dotenv()
     group_id = os.getenv('GROUP_ID')
